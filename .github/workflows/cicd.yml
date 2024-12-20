@@ -20,6 +20,6 @@ jobs:
       - name: Deploy to Azure App Service
         uses: azure/webapps-deploy@v2
         with: 
-            app-name: Jewelry-Shop
+            app-name: Backend-Jewelry
             publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D31625032F4D40509E3BA52E0ECC189F }}
             package: .
