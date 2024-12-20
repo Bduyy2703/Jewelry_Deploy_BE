@@ -12,7 +12,7 @@ const swaggerOptions = {
     },
     servers: [
       {
-        url: 'http://localhost:3000/api', // Đổi URL theo môi trường của bạn
+        url: 'http://localhost:8080/api', // Đổi URL theo môi trường của bạn
       },
     ],
     
