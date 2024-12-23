@@ -12,7 +12,7 @@ const swaggerOptions = {
     },
     servers: [
       {
-        url: 'http://localhost:5000/api', // Đổi URL theo môi trường của bạn
+        url: 'https://jewelry-deploy-be.onrender.com/api', // Đổi URL theo môi trường của bạn
       },
     ],
     
